@@ -4,7 +4,7 @@ from unittest import TestCase
 from commons.types import Object
 from lettuce_webdriver.util import assert_true
 from nose.tools import assert_equal
-from testutils import repeat_until_timeout, TimeoutError, TIMEOUT_OCCURRED
+from unittest_utils import repeat_until_timeout, TimeoutError, TIMEOUT_OCCURRED
 
 TIMEOUT_SECONDS = 1
 SLEEP_INTERVAL = 0.1

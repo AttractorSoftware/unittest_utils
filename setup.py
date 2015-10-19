@@ -2,7 +2,7 @@
 # # coding: utf-8
 
 from setuptools import setup
-from repeat_until_timeout import __version__
+from unittest_utils import __version__
 
 setup(
     name='unittest_utils',
