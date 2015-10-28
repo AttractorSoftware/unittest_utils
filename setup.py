@@ -13,6 +13,7 @@ setup(
     author_email='info@it-attractor.com',
     url='https://github.com/ITAttractor/ddt',
     py_modules=['unittest_utils'],
+    install_requires = ['commons', 'selenium'],
     classifiers=[
         'Development Status :: 1 - Beta',
         'Intended Audience :: Developers',
